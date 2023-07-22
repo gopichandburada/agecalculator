@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="age.css">
+    <script type="text/javascript" href="age.js"></script> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/2f123240a9.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="main d-flex flex-column justify-content-center">
+    <div class="container">
+        <div class="heading">
+            <h4>age calaculator</h4>
+        </div>
+        <hr class="line" />
+        <div class="block">
+            <p class="title">Date</p>
+            <input type="text" name="date" id="date" placeholder="dd" required="required" minlength="1" maxlength="2" />
+        </div>
+        <div class="block">
+            <p class="title">Month</p>
+            <input type="text" name="month" id="month" placeholder="mm" required="required" minlength="1" maxlength="2" />
+        </div>
+        <div class="block">
+            <p class="title">Year</p>
+            <input type="text" name="year" id="year" placeholder="yyyy" required="required" minlength="4" maxlength="4" />
+        </div>
+        <div class="button1">
+            <button class="button" onclick="age()">Submit</button>
+        </div>
+        <div id="age"></div>
+        <div class="go">
+            <q>Age is just a number, and your talent will never fail you, it has no expiry date</q><br />
+            <q>Always keep smile <span>&#9786;</span></q>
+            <p class="b">Gopichand</p>
+        </div>
+    </div>
+</body>
+
+</html>

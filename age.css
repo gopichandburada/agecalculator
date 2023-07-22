@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.main {
+    background-color: rgb(9, 15, 31);
+    /*  padding-left: 20px; */
+}
+
+.container {
+    background-color: rgb(6, 10, 21);
+    height: 600px;
+    width: 350px;
+    margin-top: 20px;
+}
+
+.heading h4 {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: normal;
+    color: white;
+    ;
+}
+
+.line {
+    margin-top: 10px;
+    width: auto;
+    height: 1px;
+    background-color: hotpink;
+}
+
+.block {
+    display: inline-block;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+input {
+    width: 80px;
+    border: 2px solid rgb(22, 91, 252);
+    height: 25px;
+    border-radius: 5px;
+    background-color: transparent;
+    font-size: 17px;
+    color: white;
+}
+
+.title {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: normal;
+    color: white;
+    letter-spacing: 0.5px;
+    margin-bottom: 10px;
+}
+
+.button1 {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.button {
+    width: 110px;
+    height: 37px;
+    color: white;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 2px solid rgb(22, 91, 252);
+}
+
+#age {
+    display: block;
+    padding: 20px;
+    font-size: 23px;
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.go {
+    width: 300px;
+    color: hotpink;
+    padding-left: 30px;
+    font-family: cursive;
+    font-size: 25px;
+}
+
+.b {
+    font-family: cursive;
+    padding-left: 130px;
+    padding-top: 20px;
+}
